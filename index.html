@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>DevLinks</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/Avatar.png"
+          alt="Foto do Filipe de Jesus de oculos sorrindo"
+        />
+        <p>@fpjesus_</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a href="https://wa.me/5521995100571">Peça um orçamento</a>
+        </li>
+        <li>
+          <a href="#">Veja meu portfólio</a>
+        </li>
+        <li>
+          <a href="#">TikTok</a>
+        </li>
+        <li>
+          <a href="#">Youtube</a>
+        </li>
+      </ul>
+      <p>
+        <ion-icon name="arrow-down"></ion-icon>Links Sociais<ion-icon
+          name="arrow-down"
+        ></ion-icon>
+      </p>
+      <div id="social-links">
+        <a href="https://github.com/fpjesusdev" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/fpjesus_/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/filipe-jesus636/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        <ion-icon name="mail"></ion-icon>
+        <a class="copyText" onclick="copyToClipBoard(event)"
+          >devfpjesus@gmail.com</a
+        >
+        <br />
+        <br />
+        Feito com 🤍 pelo <span><b>@fpjesus_</b></span>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+  <script src="./script.js"></script>
+</html>
